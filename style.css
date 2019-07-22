@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    height: 220px;
+    height: 230px;
     background-image: url("concert.jpg");
     background-repeat: repeat;
     background-size: 600px;
@@ -21,8 +21,12 @@ nav {
     font-size: 28px;
 }
 
-header a {
+ul {
+    padding-left: 0;
     list-style: none;
+}
+
+header a {
     text-decoration: none;
     color: white;
     padding: 16px;
@@ -140,7 +144,11 @@ input[type="submit"]:hover {
 @media only screen and (min-width: 768px) {
 
     nav {
-        width: 25%;
+        width: 18%;
+    }
+
+    ul {
+        padding-left: 10px;
     }
 
     header a:hover {
